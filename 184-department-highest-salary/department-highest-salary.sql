@@ -1,5 +1,5 @@
 # Write your MySQL query statement below
-SELECT E.NAME AS Employee, D.NAME AS Department, E.SALARY AS Salary
+SELECT  D.NAME AS Department, E.NAME AS Employee,E.SALARY AS Salary
 FROM EMPLOYEE E
 RIGHT JOIN DEPARTMENT D ON E.DEPARTMENTID=D.ID
 WHERE E.SALARY=(
